@@ -114,7 +114,7 @@ void Vez_do_Jogador()
   {
     bool jogada = false;
     
-    while(!jogada)
+    while(jogada != true)
     {          
       btnAzul = digitalRead(bAzul);
       btnAmarelo = digitalRead(bAmarelo);
